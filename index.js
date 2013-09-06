@@ -11,7 +11,7 @@ function start() {
 		response.write("Hello World");
 		response.end();
 	}
-	http.createServer(onRequest).listen(8080);
-	console.log("Démarrage du serveur.");
+	http.createServer(onRequest).listen(80);
+	console.log("Dï¿½marrage du serveur.");
 }
 exports.start = start;
